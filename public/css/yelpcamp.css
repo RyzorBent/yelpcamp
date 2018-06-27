@@ -1,0 +1,25 @@
+
+div.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.newForm {
+    width: 30%;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.thumbnail img{
+   width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.form-inline{
+    display: inline;
+}
