@@ -17,7 +17,8 @@ const methodOverride = require('method-override');
 
 //seedDB();
 
-mongoose.connect("mongodb://localhost/yelp_camp");
+//mongoose.connect("mongodb://localhost/yelp_camp");
+mongoose.connect("mongodb://ryzorbent:m0th3088@ds018708.mlab.com:18708/yelpcamp");
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.set("view engine", "ejs");
